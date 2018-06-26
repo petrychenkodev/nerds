@@ -1,0 +1,24 @@
+.container{
+	padding: 0 140px;
+	max-width: 1500px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.header{
+	background-color: #eeeeee;
+}
+.header li{
+	display: inline;
+	padding: 0 30px;
+}
+a{
+	text-decoration: none;
+}
+.welcome{
+	background-color: #eeeeee;
+	padding-top: 20px;
+}
