@@ -1,3 +1,7 @@
+@font-face{
+	font-family: roboto;
+	src: url(fonts/roboto.woff);
+}
 .container{
 	padding: 0 140px;
 	max-width: 1500px;
@@ -10,6 +14,7 @@
 }
 .header{
 	background-color: #eeeeee;
+	padding-top: 30px;
 }
 .header li{
 	display: inline;
