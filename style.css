@@ -13,10 +13,7 @@
 .container{
 	padding: 0 140px;
 	max-width: 1500px;
-}
-.container-ma{
-	margin: 0 140px;
-	max-width: 1500px;
+	margin: 0 auto;
 }
 .row{
 	display: flex;
@@ -147,7 +144,6 @@ a{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border-top: 2px solid grey;
 }
 .studio__statistic img{
 	margin: 35px;
