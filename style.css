@@ -2,6 +2,14 @@
 	font-family: roboto;
 	src: url(fonts/roboto.woff);
 }
+@font-face{
+	font-family: robotobold;
+	src: url(fonts/robotobold.woff);
+}
+@font-face{
+	font-family: robotomedium;
+	src: url(fonts/robotomedium.woff);
+}
 .container{
 	padding: 0 140px;
 	max-width: 1500px;
@@ -22,8 +30,54 @@
 }
 a{
 	text-decoration: none;
+	color: #000000;
+}
+.navigation__list, .navigation__basket{
+	font-family: robotomedium;
+	font-size: 16px;
+	line-height: 30px;
+	color: #000000;
 }
 .welcome{
 	background-color: #eeeeee;
 	padding-top: 20px;
+}
+.welcome__text{
+	width: 400px;
+}
+.welcome__text h2{
+	font-family: robotomedium;
+	font-size: 55px;
+	line-height: 55px;
+	color: #000000;
+}
+.welcome__text p{
+	font-family: roboto;
+	font-size: 16px;
+	line-height: 24px;
+	color: #283136;
+	margin-bottom: 50px;
+}
+.welcome__text a{
+	font-family: robotomedium;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	padding: 20px 50px;
+	background-color: #fb565a;
+	text-align: center;
+	border-radius: 5px;
+}
+.welcome__img{
+	background-image: url(img/slide1.png);
+	width: 698px;
+	height: 413px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+.welcome__row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
 }
