@@ -148,3 +148,20 @@ a{
 .studio__statistic img{
 	margin: 35px;
 }
+.studio__about span{
+	display: inline-block;
+	width: 25px;
+	height: 2px;
+	background-color: #fb565a;
+	margin-bottom: 5px;
+	margin-right: 10px;
+}
+.partners__row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 100px 0;
+}
+.partners__one{
+	margin: 30px;
+}
