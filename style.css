@@ -165,3 +165,43 @@ a{
 .partners__one{
 	margin: 30px;
 }
+.map{
+	position: relative;
+}
+.map__info{
+	position: absolute;
+	background-color: white;
+	top: 65px;
+	left: 150px;
+}
+.map__info h3{
+	font-family: robotobold;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+	padding: 30px 40px 10px 40px;
+}
+.map__info p{
+	font-family: roboto;
+	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+	padding: 10px 40px 10px 40px;
+}
+.map__info span{
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 50px;
+}
+.map__info a{
+	font-family: robotomedium;
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	background-color: #fb565a;
+	padding: 15px 40px;
+	border-radius: 5px;
+	margin: 10px 40px 10px 40px;
+	position: relative;
+	bottom: 40px;
+}
