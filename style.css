@@ -10,6 +10,7 @@
 	font-family: robotomedium;
 	src: url(fonts/robotomedium.woff);
 }
+
 .container{
 	padding: 0 140px;
 	max-width: 1500px;
@@ -216,4 +217,8 @@ a{
 	font-size: 22px;
 	line-height: 24px;
 	color: #283136;
+}
+a:hover{
+	box-shadow: 0 10px 10px  #34495e;
+	transition-duration: 0.3s;
 }
