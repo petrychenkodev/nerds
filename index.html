@@ -29,7 +29,7 @@
 				<div class="welcome__text">
 				<h2>Долго, дорого, <br> скрупулезно.</h2>
 				<p>Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
-				<a href="#">УЗНАТЬ БОЛЬШЕ</a>
+				<a href="#" class="moreinfo">УЗНАТЬ БОЛЬШЕ</a>
 				</div>
 			</div>
 		</section>
@@ -93,6 +93,17 @@
 				<p>Скидка 10% для друзей из социальных сетей.</p>
 		</div>
 	</footer>
+	<img src="img/moreimg.png" alt="" class="moreimg">
+	<script>
+		var link = document.querySelector(".moreinfo");
+		var popup = document.querySelector(".moreimg");
+		link.addEventListener("click" , function(){
+			popup.classList.add("moreimg-show");
+		});
+		popup.addEventListener("click" , function(){
+			popup.classList.remove("moreimg-show");
+		});
+	</script>
 	
 </body>
 </html>
